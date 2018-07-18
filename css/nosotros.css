@@ -1,0 +1,276 @@
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+body{
+  padding-top: 53px;
+}
+
+header{
+  margin: 0;
+}
+
+#header1{
+  background-color: rgba(76,76,76,1);
+  height: 53px;
+}
+
+#muser{
+  background-color: rgba(76,76,76,1);;
+}
+
+#muser li{
+  text-align: center;
+}
+
+#muser li:hover{
+  background-color: rgba(76,76,76,1);
+}
+
+#muser a:hover{
+  background-color: rgba(76,76,76,1);
+}
+
+#muser a{
+  color: white;
+}
+
+#well{
+  height: 98%;
+  margin-bottom: 150px;
+}
+
+#slider{
+  margin-top: 20px;
+  width: 100%;
+  height: 470px;
+}
+
+#slider img{
+  background-size: 100% 100%;
+}
+
+#hola{
+  text-align: justify;
+}
+
+#navegacion{
+  background-color: rgba(76,76,76,1);
+}
+
+.posteo{
+  margin-bottom: 40px;
+}
+
+.hr1{
+  border-top: 2px solid black;
+}
+
+.hr2{
+  border-top: 3px solid black;
+}
+
+#h41{
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.well{
+  height: 180px;
+  padding: 15px;
+}
+
+.well1{
+  width: 70%;
+  float: left;
+}
+
+.well1 p{
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.well1 a{
+  font-size: 12px;
+}
+
+#mapa{
+  margin: auto;
+  margin-bottom: 150px;
+  margin-left: 40px;
+}
+
+.imagen{
+  background-image: url("../img/img7.jpg");
+  background-size: 100% 100%;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+
+.imagen2{
+  background-image: url("../img/logo.jpg");
+  background-size: 100% 100%;
+  width: 400px;
+  height: 350px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+
+.imagen3{
+  background-image: url("../img/img8.jpg");
+  background-size: 100% 100%;
+  width: 320px;
+  height: 250px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+
+.well2{
+  float: right;
+  width: 27%;
+  height: 70px;
+  background-image: url("../img/bingo.png");
+  background-size: 100% 100%;
+  margin-top: 40px;
+}
+
+#mid{
+  height: auto;
+}
+
+
+#img1{
+  width: 25px;
+  height: 25px;
+  margin-top: -2px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  height: 50px;
+  width: 100%;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+    }
+
+    @media screen and (max-width: 1199px) {
+       #slider{
+        width: 100%;
+        height: 400px;
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+       #slider{
+        width: 100%;
+        height: 300px;
+      }
+    }
+
+    @media screen and (max-width: 731px) {
+       #slider{
+        width: 100%;
+        height: 250px;
+      }
+    }
+
+    @media screen and (max-width: 617px) {
+       #slider{
+        width: 100%;
+        height: 180px;
+      }
+    }
+
+    @media screen and (max-width: 449px) {
+       #slider{
+        width: 100%;
+        height: 120px;
+      }
+
+      .imagen2{
+        background-image: url("../img/logo.jpg");
+        background-size: 100% 100%;
+        width: 300px;
+        height: 350px;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+      }
+    }
+
+
+/*Agregar noticia1*/
+
+#btn4{
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  width: 80px;
+  height: 40px;
+}
+
+
+#form1{
+  margin: auto;
+}
+
+#Titulo{
+  margin-top: 40px;
+  margin-bottom: 25px;
+  width: 240px;
+  font-size: 20px;
+  font-style: bold;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#txtNoticia{
+  resize: none;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  height: 150px;
+  overflow:hidden;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
